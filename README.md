@@ -1,6 +1,6 @@
 # Triangle
 
-This is class used to determine the type of a triangle given the lengths of its sides
+This is a class used to determine the type of a triangle given the lengths of its 3 sides
 
 ## Dependencies
 
@@ -12,7 +12,7 @@ Open this project in IntelliJ IDEA, right click the test folder and choose "Run 
 
 ## Discussion
 
-- **Enum return value**. We choose Enum over String as return value because it's type safe and it's faster to compare. And they can be easily converted to String if needed.
+- **Enum return value**. We choose Enum over String as return value because it's type safe and it's faster to compare. And it can be easily converted to String if needed.
 
 - **Static function**. We use a static function to return triangle type because it doesn't use instance variables.
 
